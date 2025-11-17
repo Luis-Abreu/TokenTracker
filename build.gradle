@@ -1,0 +1,26 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+plugins {
+    alias(libs.plugins.android.application) apply false
+    alias(libs.plugins.kotlin.android) apply false
+    alias(libs.plugins.kotlin.compose) apply false
+    alias(libs.plugins.ksp) apply false
+    alias(libs.plugins.hilt) apply false
+    alias(libs.plugins.spotless) apply false
+}
+
+tasks.register('clean', Delete) {
+    delete rootProject.buildDir
+}
+
+// Convenience tasks for code formatting with ktlint
+tasks.register('formatCode') {
+    group = 'formatting'
+    description = 'Auto-format all Kotlin code using ktlint'
+    dependsOn ':app:spotlessApply'
+}
+
+tasks.register('checkCodeFormat') {
+    group = 'formatting'
+    description = 'Check Kotlin code formatting using ktlint'
+    dependsOn ':app:spotlessCheck'
+}

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">CandidateAssessment</string>
+    <string name="wallet_address">Wallet address</string>
+    <string name="erc20_tokens">ERC20 Tokens</string>
+    <string name="search_for_your_tokens">Search for your tokens here…</string>
+    <string name="start_searching_for_your_tokens">Start searching for your tokens!</string>
+    <string name="enter_a_token_name_or_symbol_above_to_begin">Enter a token name or symbol above to begin.</string>
+    <string name="no_tokens_found">No tokens found</string>
+    <string name="try_searching_with_a_different_keyword">Try searching with a different keyword</string>
+    <string name="search">Search</string>
+    <string name="loading_tokens">Loading tokens...</string>
+    <string name="my_tokens">My Tokens</string>
+    <string name="clear_cache">Clear Cache</string>
+    <string name="connection_error_showing_cached_data">⚠️ Connection error. Showing cached data</string>
+    <string name="retry">Retry</string>
+    <string name="failed_to_load_tokens">Failed to load tokens</string>
+    <string name="unknown_error_occurred">Unknown error occurred</string>
+    <string name="tap_to_retry">Tap to retry</string>
+    <string name="details">Details</string>
+    <string name="price">Price: $%1$s %2$s</string>
+    <string name="logo">%1$s logo</string>
+    <string name="market_cap">Market Cap: %1$s</string>
+    <string name="_24h_volume">24h Volume: %1$s</string>
+    <string name="holders">Holders: %1$s</string>
+    <string name="contract">Contract: %1$s...%2$s</string>
+    <string name="updated">Updated: %1$s</string>
+    <string name="refresh_balance">Refresh Balance</string>
+</resources>
